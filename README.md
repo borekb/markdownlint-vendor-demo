@@ -16,3 +16,8 @@ Also, the problems panel will show lint results of library files:
 ![image](https://user-images.githubusercontent.com/101152/40686768-bc191b42-6398-11e8-8c6e-fb5ba86554de.png)
 
 All this with just README.md open.
+
+## node_modules are fine
+
+1. Run `npm i`
+2. Try the same as above, you should *not* be getting hits from `node_modules`, i.e., everything behaves correctly.
