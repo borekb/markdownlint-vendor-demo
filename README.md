@@ -3,9 +3,8 @@
 Demo for [DavidAnson/vscode-markdownlint#38](https://github.com/DavidAnson/vscode-markdownlint/issues/38)
 
 1. Clone this repo
-2. Run `composer install` if you have PHP + Composer, or `docker run --rm -it -v $PWD:/app composer install` if you have Docker.
-3. Open `README.md` in VSCode.
-4. Press Ctrl+T (*Go to Symbol in Workspace*)
+2. Open `README.md` in VSCode.
+3. Press Ctrl+T (*Go to Symbol in Workspace*)
 
 You should see a lot of hits from `vendor`:
 
@@ -19,5 +18,4 @@ All this with just README.md open.
 
 ## node_modules are fine
 
-1. Run `npm i`
-2. Try the same as above, you should *not* be getting hits from `node_modules`, i.e., everything behaves correctly.
+Try the same as above, you should *not* be getting hits from `node_modules`, i.e., everything behaves correctly.
