@@ -1,0 +1,13 @@
+{
+    "name": "borekb/markdownlint-vendor-demo",
+    "require": {
+        "tracy/tracy": "^2.5",
+        "symfony/process": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Borek Bernard",
+            "email": "borekb@gmail.com"
+        }
+    ]
+}
